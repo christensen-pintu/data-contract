@@ -19,7 +19,7 @@ async function checkFileExistence(path) {
     try {
    
         checkFileExistence("README.md");
-        checkFileExistence("LICENSE");
+        checkFileExistence("test_actions.yaml");
         
     } catch (error) {
         core.setFailed(error.message);
